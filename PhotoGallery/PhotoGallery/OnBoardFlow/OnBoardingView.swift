@@ -13,8 +13,8 @@ struct OnBoardingView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                
                 Color.black.edgesIgnoringSafeArea(.all)
+                
                 VStack{
                     Text("Welcome to the GalleryApp")
                         .foregroundColor(.white)
